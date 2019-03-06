@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %}
+
+
+{% block content %}
+<h2> Has terminado sesión</h2>
+<div class="border-top pt-3">
+    <small class="text-muted">
+        Deseas ingresar otra vez? <a href="{% url 'login' %}">Ingresar</a>
+    </small>
+</div>
+
+{% endblock content %}
